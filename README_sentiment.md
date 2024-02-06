@@ -1,11 +1,16 @@
-○ The project name.
-○ A clear, short, and to the point description of your project. Describe
-the importance of your project, and what it does.
-○ A table of contents to allow other people to quickly navigate
-especially long or detailed READMEs.
-○ An installation section that tells other users how to install your project
-locally.
-○ A usage section that instructs others on how to use your project after
-they’ve installed it. Include screenshots of your project in action.
-○ A section for credits that highlights and links to the authors of your
-project if the project has been created by more than one person.
+Project name: Sentiment Analysis
+
+Project description:
+This program uses the en_core_web_md spaCy model to analyse and classify a sample set 
+of customer product review texts and makes sentiment predictions on them. The Amazon
+Product Reviews dataset is used in this project.
+Two most similar review texts with a reference base review text will also be shown to
+investigate whether similar texts have any effect on sentiment predictions.
+A report, sentiment_analysis_report.pdf, is compiled for this project.
+
+Installation concern:
+The program uses spaCy, spaCytextblob, pandas, random and matplotlib packages
+
+Remark:
+When running the program, please make sure that the dataset "amazon_product_reviews.csv"
+is in the same directory as the program file "sentiment_analysis.py"
