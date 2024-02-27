@@ -6,5 +6,5 @@ This program uses the en_core_web_md spaCy model to analyse and classify a sampl
 ## Installation concern
 The program uses spaCy, spaCytextblob, pandas, random and matplotlib packages
 
-# Remark
+### Remark
 When running the program, please make sure that the dataset "amazon_product_reviews.csv" is in the same directory as the program file "sentiment_analysis.py"
